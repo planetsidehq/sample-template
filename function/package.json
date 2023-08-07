@@ -1,0 +1,19 @@
+{
+  "name": "function",
+  "version": "1.0.0",
+  "description": "OpenFaaS web scraping function",
+  "main": "handler.js",
+  "scripts": {
+    "test": "mocha handler.test.js"
+  },
+  "keywords": [],
+  "author": "Planetside Software Corp.",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "puppeteer": "^21.0.1",
+    "sinon": "^15.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
